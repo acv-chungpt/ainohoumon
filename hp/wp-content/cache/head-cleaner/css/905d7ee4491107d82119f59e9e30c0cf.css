@@ -1,0 +1,57 @@
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+.heading-font {
+font-family: 'Lato', sans-serif;
+}
+.body-font {
+font-family: 'Roboto', sans-serif;
+}
+.page-wrapper { background-color: #f9f9f8; }
+a { color: #2d353f; }
+body, header, .wptouch-menu, .pushit, #search-dropper, .date-circle { background-color: #2d353f; }
+a, #slider a p:after { color: #35c4ff; }
+.dots li.active, #switch .active { background-color: #35c4ff; }
+.bauhaus, .wptouch-login-wrap, form#commentform button#submit { background-color: #6dfdb9; }
+.wp-to-top {
+background: #000;
+color: #fff; left: 10px;
+font-size: 30px;
+line-height: 30px;
+}.wp-to-top:hover {
+color: #fff;
+}
+.wp_social_bookmarking_light{
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+float: left !important;
+border: 0 !important;
+padding: 0 !important;
+margin: 0 5px 0px 0 !important;
+height: 23px !important;
+text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+border: 0 !important;
+padding: 0;
+margin: 0;
+vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+clear: both !important;
+}
+.wsbl_twitter{
+width: 100px;
+}

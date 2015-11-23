@@ -1,0 +1,108 @@
+@CHARSET "utf-8";
+
+body {
+	margin: 0 0 0 0;
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+	background-color: #E6F6F2;
+}
+
+#container{
+	margin: 0 0 0 0;
+	position:relative;
+	width: 100%;
+	heigth: 120%;
+	background: url("../images/bgimg.png") repeat-x;
+}
+
+#containern{
+	margin: 0 0 0 0;
+	position:relative;
+	width: 100%;
+	background: url("../images/bgimgn.png") repeat-x;
+}
+
+#container1{
+	/*margin: 0 0 0 0;*/
+	/*position:absolute;*/
+	width: 100%;
+	background: url("../images/bgimg.png") repeat-x;
+}
+
+.lborder {
+	width: 19px;
+	height: 100%;
+	top: 165px;
+	padding-bottom: 0px;
+	/*background : url("../images/side-l.jpg") repeat-y;*/
+}
+
+.rborder {
+	width: 19px;
+	height: 100%;
+	top: 165px;
+	padding-bottom: 0px;
+	/*background : url("../images/side-r.jpg") repeat-y;*/
+}
+
+.smenus {
+	margin: 0px;
+	background: #ffffff;
+	width: 170px;
+	max-width: 170px;
+	/*border: 1px solid green;*/
+	vertical-align: top;
+}
+
+.conts {
+	background: #ffffff;
+	width: 668px;
+	max-width: 668px;
+	border-left: gray 1px solid;
+}
+
+.bordertops {
+	padding-top: 163px;
+	/*background : url("/images/side-r.jpg") repeat-y;*/
+}
+
+.lr_borders {
+	width: 838px;
+}
+
+#s_menus {
+	margin: 0px;
+	width: auto;
+}
+
+#s_menus  a,
+#s_menus  img,
+#s_menus  br {
+	max-width: 170px;
+}
+
+.topspace {
+	height: 7px;
+}
+
+.hdrlnks {
+	width:838px;
+	height: 10px;
+	text-align: right;
+	vertical-align: middle;
+	padding-top: 7px;
+}
+
+.idx{
+	height: 50px;
+	padding-top: 10px;
+	font-size: 36px; 
+	font-family: "メイリオ","ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3"; 
+}
+
+a { 
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+

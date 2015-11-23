@@ -1,0 +1,25 @@
+.wp_social_bookmarking_light{
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+float: left !important;
+border: 0 !important;
+padding: 0 !important;
+margin: 0 5px 0px 0 !important;
+height: 23px !important;
+text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+border: 0 !important;
+padding: 0;
+margin: 0;
+vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+clear: both !important;
+}
+.wsbl_twitter{
+width: 100px;
+}

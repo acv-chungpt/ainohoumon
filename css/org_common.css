@@ -1,0 +1,47 @@
+@CHARSET "utf-8";
+body {
+	margin: 0 0 0 0;	
+}
+
+#container{
+	margin: 0 0 0 0;
+	position:relative;
+	width: 100%;
+	background: url("../images/bgimg.png") repeat-x;
+}
+
+#container1{
+	/*margin: 0 0 0 0;*/
+	/*position:absolute;*/
+	width: 100%;
+	background: url("../images/bgimg.png") repeat-x;
+}
+
+.lborder {
+	width: 19px;
+	height: 100%;
+	top: 165px;
+	padding-bottom: 0px;
+	/*background : url("../images/side-l.jpg") repeat-y;*/
+}
+
+.rborder {
+	width: 19px;
+	height: 100%;
+	top: 165px;
+	padding-bottom: 0px;
+	/*background : url("../images/side-r.jpg") repeat-y;*/
+}
+
+.smenus {
+	background: #ffffff;
+}
+
+.conts {
+	background: #ffffff;
+}
+
+.bordertops {
+	padding-top: 163px;
+	/*background : url("/images/side-r.jpg") repeat-y;*/
+}

@@ -1,0 +1,323 @@
+@charset "utf-8";
+/*
+Theme Name: ainohoumon
+Theme URI: http://http://ainohoumon.com//
+Description: ainohoumon
+Version: 1.0
+Author: apprhythm
+Author URI: http://http://ainohoumon.com//
+Tags: simple
+*/
+
+*{margin:0;padding:0;}
+
+body{
+font: 12px "メイリオ","Meiryo",arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+color:#333;
+background: #fbf9f2 url(images/bg.png) repeat-x top;
+}
+
+a{color:#999;text-decoration:none;}
+a:hover{color:#555;}
+a:active, a:focus {outline: 0;}
+img{border:0;}
+.clear{clear:both;}
+
+
+/*************
+全体
+*************/
+#wrapper{
+margin: 0 auto;
+padding: 0 20px;
+width: 910px;
+}
+
+/*************
+/* ヘッダー
+*************/
+#header{
+background: url(images/header.png) no-repeat 100% 30px;
+height: 80px;
+}
+
+#header h1 {
+color: #333;
+padding: 3px 0 5px;
+font-size: 10px;
+font-weight: normal;
+}
+
+
+/*************
+/* トップナビゲーション
+*************/
+ul#topnav{
+margin: 15px 0;
+width: 910px;
+height: 31px;
+background:url(images/topnav.png) no-repeat 0 0;
+}
+
+ul#topnav li{float:left;list-style:none;width:130px;}
+
+ul#topnav a{
+text-indent: -9999px;
+text-decoration: none;
+display: block;
+width: 130px;
+height: 46px;
+background:url(images/topnav.png) no-repeat;
+}
+
+ul#topnav a#home{background-position:0 0;}
+ul#topnav a#about{background-position:-130px 0;}
+ul#topnav a#menu{background-position:-260px 0;}
+ul#topnav a#faq{background-position:-390px 0;}
+ul#topnav a#map{background-position:-520px 0;}
+ul#topnav a#blog{background-position:-650px 0;}
+ul#topnav a#link{background-position:-780px 0;}
+
+ul#topnav a#home:hover, ul#topnav li.active a#home{background-position:0 -46px;}
+ul#topnav a#about:hover, ul#topnav li.active a#about{background-position:-130px -46px;}
+ul#topnav a#menu:hover, ul#topnav li.active a#menu{background-position:-260px -46px;}
+ul#topnav a#faq:hover, ul#topnav li.active a#faq{background-position:-390px -46px;}
+ul#topnav a#map:hover, ul#topnav li.active a#map{background-position:-520px -46px;}
+ul#topnav a#blog:hover, ul#topnav li.active a#blog{background-position:-650px -46px;}
+ul#topnav a#link:hover, ul#topnav li.active a#link{background-position:-780px -46px;}
+
+li.active a#home{background-position:0 -42px;}
+li.active a#guide{background-position:-213px -42px;}
+li.active a#faq{background-position:-429px -42px;}
+li.active a#mp{background-position:-573px -42px;}
+
+
+/*************
+メインイメージ
+*************/
+#mainimage {
+margin-top: 40px;
+}
+
+/*************
+メイン（右側）コンテンツ
+*************/
+#main {
+float: right;
+width: 618px;
+padding: 25px 0;
+display: inline;
+}
+
+#main h2{
+margin-bottom: 10px;
+padding: 1px 10px 0px 10px;
+line-height: 30px;
+font-size: 12px;
+color: #333;
+border-bottom: 2px solid #333;
+font-weight: normal;
+}
+
+#main h3 {
+font-size: 12px;
+line-height: 30px;
+padding-left: 15px;
+margin-top: 10px;
+letter-spacing: 0.2em;
+color: #333;
+border-bottom: 1px solid #ccc;
+font-weight: normal;
+}
+
+#main p {
+padding: 15px 15px 15px 20px;
+}
+
+/* 画像を右に回りこみ */
+#main p.withImage{
+width: 598px;
+margin: 20px 0 0 10px;
+padding: 5px 0;
+}
+
+#main p.withImage img{
+float: right;
+margin-left: 20px;
+}
+
+#date {
+text-align: right;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: 10px;
+font-weight:bold;
+color:#999;
+}
+
+#next {
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+}
+img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+
+/* フッター共通 */
+.box{
+float: left;
+width: 295px;
+margin: 20px 16px 10px 0;
+line-height: 1.2;
+}
+
+.box_img{
+padding: 0px 0px 10px 0px;
+}
+
+.last{margin-right:0;}
+
+
+/* ボタン */
+p.button{
+text-align: center;
+padding: 10px 0;
+}
+
+p.button a{
+display:block;
+line-height: 32px;
+background: url(images/button.png) no-repeat;
+margin: 0 -20px;
+}
+
+p.button a{color:#333;}
+p.button a:hover{color:#999;}
+
+p.button a:hover{
+cursor:pointer;
+background-position: 0 -32px;
+}
+
+/* メインとフッターのリスト位置調節 */
+#main ul, #footer ul{margin-left: 20px;}
+#main li, #footer li{margin-bottom: 3px;}
+
+
+/*************
+サイド（左側）コンテンツ
+*************/
+#sidebar {
+float: left;
+width: 265px;
+padding: 20px 0;
+}
+
+#sidebar p{margin-bottom: 20px;}
+
+#sidebar h3 {
+margin-top: 5px;
+padding: 1px 10px 0 8px;
+line-height: 30px;
+font-size: 12px;
+color: #333;
+border-bottom: 2px solid #333;
+font-weight: normal;
+}
+
+#sidebar ul{
+margin-bottom: 20px;
+padding: 10px 0 0 1px;
+}
+
+#sidebar li{
+margin: 0 1px 10px 1px;
+padding: 0 0 5px 5px;
+list-style: none;
+border-bottom: 1px dotted #ccc;
+}
+
+#sidebar li a{
+color: #333;
+background: url(images/list.png) no-repeat 0 50%;
+display: block;
+padding-left:15px;
+}
+
+#sidebar li a:hover{
+color: #999;
+background-position: 3px 50%;
+}
+
+
+
+
+/*************
+/* フッター
+*************/
+#footer{
+clear:both;
+padding: 10px 0 10px;
+border-top: 1px dotted #ccc;
+}
+
+#footer .inner{
+overflow: hidden;
+}
+
+* html #footer .inner{height:1%;}
+
+#footer #logo{
+float:left;
+padding: 10px 0 5px;
+width: 292px;
+}
+
+address{
+/*
+color: #c6c6c6;
+*/
+padding: 20px 0 3px;
+text-align: center;
+font-style:normal;
+font-size: 12px;
+clear:both;
+display:block;
+}
+
+
+/* block quote */
+blockquote { margin:0 0 1em 0; padding:50px 50px 40px; background:#f2f2f2; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; position:relative; border:1px solid #c1c1c1; }
+blockquote:before { content: '"'; font-style:italic; font-size:40px; font-weight:bold; line-height:40px; width:30px; height:30px; position:absolute; top:20px; left:20px; color:#999; }
+blockquote:after { content: '"'; font-style:italic; font-size:40px; font-weight:bold; text-align:left; line-height:60px; width:30px; height:30px; position:absolute; bottom:20px; right:20px; color:#999; }
+
+/****************************************************************
+【マウスオーバー時の画像リンク 不透明度の設定】※初期設定は60%
+*****************************************************************/
+a img.linkimg{background:none!important}
+a:hover img.linkimg{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	-ms-filter: "alpha( opacity=70 )";
+	background:none!important;
+}

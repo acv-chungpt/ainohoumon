@@ -1,0 +1,253 @@
+.heading-font {
+font-family: 'Lato', sans-serif;
+}
+.body-font {
+font-family: 'Roboto', sans-serif;
+}
+.page-wrapper { background-color: #f9f9f8; }
+a { color: #2d353f; }
+body, header, .wptouch-menu, .pushit, #search-dropper, .date-circle { background-color: #2d353f; }
+a, #slider a p:after { color: #35c4ff; }
+.dots li.active, #switch .active { background-color: #35c4ff; }
+.bauhaus, .wptouch-login-wrap, form#commentform button#submit { background-color: #6dfdb9; }
+.wp-to-top {
+background: #000;
+color: #fff; left: 10px;
+font-size: 30px;
+line-height: 30px;
+}.wp-to-top:hover {
+color: #fff;
+}
+.wp_social_bookmarking_light{
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+float: left !important;
+border: 0 !important;
+padding: 0 !important;
+margin: 0 5px 0px 0 !important;
+height: 23px !important;
+text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+border: 0 !important;
+padding: 0;
+margin: 0;
+vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+clear: both !important;
+}
+.wsbl_twitter{
+width: 100px;
+}
+.wptouch-menu .menu-tree a, .wptouch-menu .menu-tree span {
+color: rgba(0,0,0,.65);
+text-shadow: rgba(255,255,255,.3) 0 1px 0;
+}
+
+.wptouch-menu .menu-tree > li {
+border-bottom: 1px solid rgba(0,0,0,.08);
+border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.menu-tree li {
+clear: both;
+position: relative;
+line-height: 100%;
+}
+
+.wptouch-menu ul ul {
+display: none;
+}
+
+.menu-tree li span {
+-webkit-transition-duration: 300ms;
+-o-transition-duration: 300ms;
+transition-duration: 300ms;
+display: block;
+-webkit-box-shadow: inset rgba(0,0,0,.15) 1px 0px 0px;
+box-shadow: inset rgba(0,0,0,.15) 1px 0px 0px;
+border-left: 1px solid rgba(255,255,255,.1);
+padding: 15px;
+float: right;
+}
+
+.menu-tree li span.toggle {
+-webkit-box-shadow: inset rgba(0,0,0,.2) 0px 4px 4px;
+box-shadow: inset rgba(0,0,0,.2) 0px 4px 4px;
+border: none;
+}
+
+.menu-tree li span:before {
+font-family: 'wptouch-icons';
+content:"\e80f";
+}
+
+.menu-tree li span.toggle:before {
+content:"\e80e";
+font-weight: normal;
+font-style: normal;
+}
+
+ul.menu-tree.no-parent-links span, ul.menu-tree ul span {
+border: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.menu-tree li a {
+display: block;
+-o-text-overflow: ellipsis;
+-ms-text-overflow: ellipsis;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 32px;
+}
+
+.menu-tree li img {
+width: 26px;
+height: 26px;
+position: relative;
+float: left;
+padding-right: 6px;
+top: 8px;
+padding-left: 6px;
+}
+
+.menu-tree > .open-tree {
+background: rgba(0,0,0,.03);
+-webkit-box-shadow: inset rgba(0,0,0,.25) 0px 0px 4px;
+box-shadow: inset rgba(0,0,0,.25) 0px 0px 4px;
+border-top-color: rgba(0,0,0,.2);
+margin-top: -1px;
+padding-top: 1px;
+}
+
+.menu-tree li.no-icon {
+padding-left: 10px;
+}
+
+.menu-tree ul li {
+border-style: none !important;
+clear: both;
+padding-left: 15px;
+}
+
+
+
+.rtl .menu-tree li span {
+-webkit-transition-duration: 300ms;
+-o-transition-duration: 300ms;
+transition-duration: 300ms;
+float: left;
+-webkit-box-shadow: inset rgba(0,0,0,.15) -1px 0px 0px;
+box-shadow: inset rgba(0,0,0,.15) -1px 0px 0px;
+border-right: 1px solid rgba(255,255,255,.1);
+border-left: none;
+}
+
+.rtl .menu-tree li span.toggle {
+-webkit-box-shadow: inset rgba(0,0,0,.2) 0px 4px 4px;
+box-shadow: inset rgba(0,0,0,.2) 0px 4px 4px;
+border: none;
+}
+
+.rtl .menu-tree li.menu-item img {
+float: right;
+}
+
+.rtl .menu-tree li.menu-item a {
+padding-left: 32px;
+padding-right: 0px;
+}
+
+.rtl .menu-tree li.no-icon {
+padding-right: 10px;
+}
+
+.rtl .menu-tree ul li {
+padding-left: 0px;
+padding-right: 15px;
+}
+
+
+
+
+
+.dark-header .wptouch-menu .menu-tree a, .dark-header .wptouch-menu .menu-tree span {
+color: rgba(255,255,255,.9);
+text-shadow: rgba(0,0,0,.3) 0 -1px 0;
+}
+
+.dark-header .wptouch-menu .menu-tree span:before {
+color: rgba(255,255,255,.9);
+text-shadow: rgba(0,0,0,.5) 0 -1px 0;
+}
+
+.dark-header .wptouch-menu .menu-tree > li.menu-item {
+border-bottom: 1px solid rgba(0,0,0,.12);
+border-top: 1px solid rgba(255,255,255,.06);
+}
+.style4 {
+font-size: 2;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+.style8{
+font-size: 12px;
+margin-left: 10px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+color: blue;
+}
+
+.style9 {
+font-size: 12px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+.style10{
+font-size: 12px;
+margin-left: 10px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+color: red;
+}
+
+7		.style11{
+font-size: 20px;
+margin-left: 10px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+.style12{
+font-size: 12px;
+margin-left: 10px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+.style13 {
+font-size: 18px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+.style14 {
+font-size: 36px;
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+.footer {
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+font-size: 14px;
+}
+h1 {
+font-family: "メイリオ","ＭＳ ゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+font-size: 11px;
+font-weight: normal;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
